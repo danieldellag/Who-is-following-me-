@@ -12,7 +12,7 @@ L = instaloader.Instaloader()
 L.login(account_data['username'], account_data['password'])
 
 # # Obtain profile metadata  
-# profile = instaloader.Profile.from_username(L.context, account_data['username'])
+profile = instaloader.Profile.from_username(L.context, account_data['username'])
 
 # # Print list of followers
 # follow_list = []
